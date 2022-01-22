@@ -1,0 +1,20 @@
+ {% extends "base.html" %}
+ {% block main %}
+    <div id="container-1">
+      <h1>{{ topic }}</h1>
+      <h2>{{ subtopic }}</h2>
+    </div>
+    <div id="container-2">
+    <p id="back">
+        {{ content }}
+    </p>
+    
+    <h3>Image</h3>
+    <img src='{{ image }}' alt = "DS2.jpeg">
+    <p id="inlinepara">
+    </p>
+        </div>
+    <div id="container-3">
+
+    <a href='{{ link }}'>More Info Here </a>       </div>
+  {% endblock %}
